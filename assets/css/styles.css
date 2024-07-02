@@ -81,6 +81,7 @@ a.nav-link.active, a.nav-link:hover {
     background-size: contain;
     width: 20rem;
     height: 20rem;
+    display: none;
 }
 
 .animated-gif a img {
