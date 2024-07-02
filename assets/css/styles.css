@@ -79,6 +79,8 @@ a.nav-link.active, a.nav-link:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    width: 20rem;
+    height: 20rem;
 }
 
 .animated-gif a img {
