@@ -62,6 +62,11 @@
     <link rel="stylesheet" href="assets/css/mobile.css">
     <link rel="stylesheet" href="assets/css/tablets.css">
 
+    <!-- Include the CSS & JS.. (This could be direct from the package or bundled) -->
+    <link rel="stylesheet" href="assets/css/lite-yt-embed.css" />
+
+
+
     <!-- feedback script -->
     <script defer>
       window.markerConfig = {
@@ -71,6 +76,8 @@
     
     !function(e,r,a){if(!e._Marker){e.Marker={};var t=[],n={_cs:t};["show","hide","isVisible","capture","cancelCapture","unload","reload","isExtensionInstalled","setReporter","setCustomData","on","off"].forEach(function(e){n[e]=function(){var r=Array.prototype.slice.call(arguments);r.unshift(e),t.push(r)}}),e.Marker=n;var s=r.createElement("script");s.async=1,s.src="https://edge.marker.io/latest/shim.js";var i=r.getElementsByTagName("script")[0];i.parentNode.insertBefore(s,i)}}(window,document);
     </script>
+
+
     
 </head>
 
@@ -150,10 +157,13 @@
         </section>
 
         <section class="video-banner" data-aos="fade-down" >
-            <iframe loading="lazy" width="100%" height="722" src="https://www.youtube.com/embed/pwuo2UprBUw?si=HtRjWnWLltZo0ruL"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!--            <iframe loading="lazy" width="100%" height="722" src="https://www.youtube.com/embed/pwuo2UprBUw?si=HtRjWnWLltZo0ruL"-->
+<!--                    title="YouTube video player" frameborder="0"-->
+<!--                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+<!--                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
+
+            <!-- Use the element. You may use it before the lite-yt-embed JS is executed. -->
+            <lite-youtube videoid="pwuo2UprBUw" playlabel="Play: Keynote (Google I/O '18)"></lite-youtube>
         </section>
 
         <section class="before-footer row">
@@ -347,6 +357,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous" defer></script>
 <script src="assets/js/aos.js" defer></script>
+<script src="assets/js/lite-yt-embed.js" defer></script>
 <script src="assets/js/script.js" defer></script>
 
 
