@@ -45,7 +45,7 @@ a.nav-link.active, a.nav-link:hover {
 }
 
 .hand-bg{
-    background-image: url("../../assets/img/hand.png");
+    background-image: url("../../assets/img/hand.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -93,7 +93,7 @@ a.nav-link.active, a.nav-link:hover {
     display: flex;
     align-content: center;
     padding: 2rem 5rem;
-    background-image: url("../../assets/img/childrens.png");
+    background-image: url("../../assets/img/childrens.webp");
     background-repeat: no-repeat;
     background-position: right;
     background-size: 42%;
@@ -158,7 +158,7 @@ a.nav-link.active, a.nav-link:hover {
 }
 
 .before-footer{
-    background-image: url("../../assets/img/happy-children.png");
+    background-image: url("../../assets/img/happy-children.webp");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -267,7 +267,7 @@ header {
 }
 
 .banner-green{
-    background-image: url("../../assets/img/main-banner-2.png");
+    background-image: url("../../assets/img/main-banner-2.webp");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -330,7 +330,7 @@ a.cta-green-who-is-it img {
 
 /*.red-circle-before:after{*/
 /*    content: '';*/
-/*    background-image: url("../../assets/img/animated-logo-green.gif");*/
+/*    background-image: url("../../assets/img/animated-logo-green.webp");*/
 /*    z-index: 1;*/
 /*    position: absolute;*/
 /*    width: 450px;*/
